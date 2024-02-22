@@ -10,7 +10,6 @@ let scriptsLoadInitiated = false;
 const testMode = false;
 const loadTimeLogs = [];
 
-// eslint-disable-next-line import/unambiguous
 function tryImport(...fileNames) {
   try {
     const startTime = new Date().getTime();
