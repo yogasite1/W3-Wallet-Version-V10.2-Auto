@@ -32,7 +32,7 @@ const codecovConfig = {
 
 const COVERAGE_DIR = './coverage/';
 
-const COVERAGE_THRESHOLD_FOR_BUMP = 1;
+const COVERAGE_THRESHOLD_FOR_BUMP = 0;
 
 /**
  * Load .json file at path and parse it into a javascript object
