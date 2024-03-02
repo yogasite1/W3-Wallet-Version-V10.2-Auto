@@ -22,6 +22,7 @@ start().catch((error) => {
  *  split across.
  * @property {number} [maxWorkers] - Total number of workers to use when
  *  running tests.
+ *
  */
 
 /**
