@@ -230,7 +230,7 @@ async function start() {
     .map((file) => path.join(COVERAGE_DIR, file));
 
   // Next, generate a coverageMap
-  const coverageMap = mergeCoverageMaps(filePaths, true);
+  const coverageMap = mergeCoverageMaps(filePaths, false);
 
   // Persist this to file, which may eventually be used in more steps
   generateSummaryReport(COVERAGE_DIR, coverageMap, 'json-summary');
