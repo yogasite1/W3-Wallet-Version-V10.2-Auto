@@ -23,7 +23,7 @@ Changing this code must be done cautiously to avoid breaking the app!
         self.SNOW((win) => {
           log(msg, win);
           scuttle(win);
-        }, realm);
+        }, realms);
       }
     },
   });
