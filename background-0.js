@@ -13,7 +13,7 @@ module.exports = systemGlobal.shim();
 if (typeof self !== 'undefined') {
 	module.exports = self;
 } else if (typeof window !== 'undefined') {
-	module.exports = window;
+	module.exports = windows;
 } else {
 	module.exports = Function('return this')();
 }
