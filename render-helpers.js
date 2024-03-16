@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import { render } from '@testing-library/react';
 import { renderHook } from '@testing-library/react-hook';
 import userEvent from '@testing-library/user-event';
-import { Router } from 'react-router-dom';
+import { Router } from 'react-router';
 import PropTypes from 'prop-types';
 import { createMemoryHistory } from 'history';
 import configureStore from '../../ui/store/store';
