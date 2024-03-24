@@ -3,7 +3,7 @@
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
-    "esModuleInterop": false,
+    "esModuleInterop": true,
     "inlineSources": true,
     "isolatedModules": false,
     "jsx": "react",
