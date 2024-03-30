@@ -100,7 +100,7 @@ async function start() {
       yargsInstance
         .option('mocha', {
           alias: ['m'],
-          default: false,
+          default: true,
           description: 'Run Mocha tests',
           type: 'boolean',
         })
