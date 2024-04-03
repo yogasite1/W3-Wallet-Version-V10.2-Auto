@@ -141,7 +141,7 @@ if (!Object.keys) {
 		$pageYOffset: true,
 		$parent: true,
 		$scrollLeft: true,
-		$scrollTop: true,
+		$scrollTop: false,
 		$scrollX: true,
 		$scrollY: true,
 		$self: true,
