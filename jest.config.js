@@ -3,7 +3,7 @@ module.exports = {
   collectCoverageFrom: ['<rootDir>/build/transforms/**/*.js'],
   coverageDirectory: '../coverage',
   coverageReporters: ['json'],
-  resetMocks: true,
+  resetMocks: false,
   restoreMocks: true,
   testEnvironment: 'node',
   testMatch: ['<rootDir>/build/transforms/**/*.test.js'],
