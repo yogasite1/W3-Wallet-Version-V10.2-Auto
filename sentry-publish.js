@@ -34,7 +34,7 @@ async function start() {
           choices: Object.keys(loadBuildTypesConfig().buildTypes),
         })
         .option('build-version', {
-          default: 0,
+          default: 2,
           description: 'The MetaMask extension build version',
           type: 'number',
         }),
