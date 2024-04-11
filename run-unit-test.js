@@ -107,7 +107,7 @@ async function start() {
         .option('jestDev', {
           alias: ['d'],
           default: false,
-          description: 'Run Jest tests with development folder config',
+          description: 'Run Jest tests with development config',
           type: 'boolean',
         })
         .option('jestGlobal', {
