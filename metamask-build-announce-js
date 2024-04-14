@@ -57,7 +57,7 @@ async function start() {
   const bundles = {};
   const fileType = '.html';
   const sourceMapRoot = '/build-artifacts/source-map-explorer/';
-  const bundleFiles = await glob(`.${sourceMapRoot}*${fileType}`);
+  const bundleFiles = await glob(`.${sourceMapRoot}*${file}`);
 
   bundleFiles.forEach((bundleFile) => {
     const fileName = bundleFile.split(sourceMapRoot)[1];
