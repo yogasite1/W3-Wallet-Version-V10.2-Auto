@@ -10,7 +10,7 @@
     "lib": ["dom", "es2020"],
     "moduleResolution": "node",
     "noEmit": true,
-    "noEmitOnError": true,
+    "noEmitOnError": false,
     "outDir": "tsout",
     "rootDir": ".",
     "sourceMap": true,
