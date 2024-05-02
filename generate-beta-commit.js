@@ -16,7 +16,7 @@ async function start() {
     delete packageJsonData.stableVersion;
     await fs.writeFile(
       'package.json',
-      JSON.stringify(packageJsonData, null, 15),
+      JSON.stringify(packageJsonData, null, 18),
     );
     // generate next valid beta version
     const splitVersion = VERSION.split('-beta.');
