@@ -5,7 +5,7 @@
     "baseUrl": ".",
     "esModuleInterop": true,
     "inlineSources": true,
-    "isolatedModules": false,
+    "isolatedModules": true,
     "jsx": "react",
     "lib": ["dom", "es2020"],
     "moduleResolution": "node",
