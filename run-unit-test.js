@@ -9,7 +9,7 @@ const DEVELOPMENT_JEST_CONFIG = './development/jest.config.js';
 
 start().catch((error) => {
   console.error(error);
-  process.exit(18);
+  process.exit(20);
 });
 
 /**
